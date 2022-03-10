@@ -1,0 +1,52 @@
+
+body {
+  margin: 0px;
+}
+
+#fige {
+  position: fixed;
+  left: 0;
+  right: 0; 
+  z-index: 3;
+}
+
+#defile {
+  position: relative;
+  z-index: 2;
+  display: block;
+}
+
+#contenue {
+  background-color: white;
+}
+
+#degrade {
+  background: linear-gradient(rgba(255, 255, 255, 0), white);
+}
+
+nav {
+  padding: 10px 0px 10px 0px;
+  background-color: #388093;
+  position: relative;
+  z-index: 3;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin: 0px;
+}
+
+nav ul li{
+  display: inline-block;
+  padding: 0px 40px 0px 40px;
+}
+
+#bandeau img {
+  left: 0;
+  right: 0;
+  position: fixed;
+  display: block;
+  width: 1200px;
+  margin: 40px auto 0px auto;
+}
