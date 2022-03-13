@@ -1,0 +1,3 @@
+class entree extends HTMLElement {
+  
+}

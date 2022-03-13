@@ -12,38 +12,46 @@
       <header>
         <nav>
           <ul>
-            <li>Accueil</li>
-            <li>Démonstration</li>
-            <li>Bibliographie</li>
-            <li><input type="button" onClick="fullscreen()" value="plein écran"> </li>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="demonstration.html">Démonstration</a></li>
+            <li><a href="bibliographie.html">Bibliographie</a></li>
           </ul>
+          <input type="button" onClick="fullscreen()" value="plein écran" id="pleinecran">
         </nav>
       </header>
     </div>
-    <div id="bandeau">
+    <div id="fond">
       <img src="images/GB.jpg"></img>
-      George Boole
-    </div>
-    <div id="defile">
-      <div>
-        </br></br></br></br></br></br></br></br>
+      <a href="#ancrebiographie">
+        <div class="raccourci" id="biographie">
+        Biographie : <br>
+        Une rapide biographie de George Boole
+        </div>
+      </a>
+      <div class="raccourci" id="travaux">
+        Travaux : <br>
+        Ses travaux et leurs impacts aujourd'hui
       </div>
-      <div>
-        <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+      <div class="raccourci"></div>
+    </div>
+      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="defile">
         <div id="degrade">
           <br><br><br><br><br><br>
         </div>
         <div id="contenue">
-          -biographie George Boole
-        <br>-explication des travaux (algèbre booléen) 
-        <br>-utilités de ses travaux aujourd'hui
-        <br>-tables de vérités des opérateurs booléens
-        <br>-propriétés spéciales?
-        <br>-page interactive demonstration de l'algorithme
-          <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-        </div
+          <div id="dessus">
+            <div id="ancrebiographie">-biographie George Boole</div>
+            <br>-explication des travaux (algèbre booléen) 
+            <br>-utilités de ses travaux aujourd'hui
+            <br>-tables de vérités des opérateurs booléens
+            <br>-propriétés spéciales?
+            <br>-page interactive demonstration de l'algorithme
+          </div>
+          <div id="trou"></div>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
       </div>
-      
     </div>
   </body>
 </html>
