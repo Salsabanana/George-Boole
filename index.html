@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href="style.css" rel=stylesheet>
-    <type="text/css">
+    <link href="styles/general.css" rel=stylesheet type="text/css">
+    <link href="styles/index.css" rel=stylesheet type="text/css">
     <meta charset="utf-8" />
     <title>George Boole</title>
   </head>
@@ -12,46 +12,57 @@
       <header>
         <nav>
           <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li><a href="demonstration.html">Démonstration</a></li>
+            <li><a href="index.html">-Accueil-</a></li>
+            <li><a href="simulation.html">Simulation</a></li>
             <li><a href="bibliographie.html">Bibliographie</a></li>
           </ul>
-          <input type="button" onClick="fullscreen()" value="plein écran" id="pleinecran">
         </nav>
       </header>
+      <div id="boutonhautpage">
+      <img src="images/flechehautdepage.png"
+        width=50px
+        height=50px></img>
+      </div>
     </div>
     <div id="fond">
       <img src="images/GB.jpg"></img>
       <a href="#ancrebiographie">
-        <div class="raccourci" id="biographie">
+        <div class="raccourci" id="biographie-racourci">
         Biographie : <br>
         Une rapide biographie de George Boole
         </div>
       </a>
-      <div class="raccourci" id="travaux">
+      <div class="raccourci" id="travaux-racourci">
         Travaux : <br>
         Ses travaux et leurs impacts aujourd'hui
       </div>
       <div class="raccourci"></div>
     </div>
-      <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <div id="vide"></div>
     <div id="defile">
-        <div id="degrade">
-          <br><br><br><br><br><br>
-        </div>
+        <div id="degrade"></div>
         <div id="contenue">
           <div id="dessus">
-            <div id="ancrebiographie">-biographie George Boole</div>
-            <br>-explication des travaux (algèbre booléen) 
-            <br>-utilités de ses travaux aujourd'hui
-            <br>-tables de vérités des opérateurs booléens
-            <br>-propriétés spéciales?
-            <br>-page interactive demonstration de l'algorithme
+            <div id="biographie">
+              <h1>Biographie</h1><br>
+            George Boole est un logicien, mathématicien et philosophe britannique né le 2 novembre 1815. Dès  son enfance, son père lui transmet sa passion pour les sciences et l’astronomie, ensemble ils fabriquent des kaléidoscopes, cadrans solaires… A 16 ans, il arrête ses études pour aider ses parents et trouve un poste d’enseignant dans une petite école. Il peut alors consacrer ses soirée à ses recherches. Pour enseigner les mathématiques, il part du principe qu'une grande part de cette discipline trouve son origine dans la résolution de problèmes pratiques. C'est pourquoi il concentre ses travaux sur l'utilisation pratique des idées mathématiques, plus que sur leur utilisation abstraite. Il réalisera ensuite de nombreux travaux et recherches dans ce domaine (voir la partie « travaux »). Il mourut d’une bronchite qui évolua en pleuropneumonie le 8 décembre 1864.
+            </div>
+            <div id="travaux">
+              <h1>Travaux</h1><br>
+              George Boole réalisa durant sa vie de nombreux sur le thème des mathématiques et de la logique.
+Il écrit en 1839 son premier article mathématiques sur le thème du calcul des variations, qui lui permet de rentrer en contact avec d’autres chercheurs de son temps. Il fait la découverte des invariants algébriques en 1841 qui donnerons naissance à une nouvelle branche des mathématiques mais c’est en 1847 qu’il publie sa plus grande recherche : l’algorithme booléen.
+Il souhaitait démontrer que les raisonnements logiques sont sujets à des lois mathématiques comme celles de l'algèbre et qu'ils peuvent donc être représentés et analysés par des équations mathématiques grâce à un nouveau calcul qui n'opère pas avec des nombres, mais avec des classes d'objets. C’est une nouvelle forme de logique, à la fois symbolique et mathématique. Il crée une algèbre binaire, n'acceptant que deux valeurs numériques : 0 et 1 sur lesquels l’on peu 3 opérations : la conjonction, la disjonction et la négation.
+            </div>
           </div>
-          <div id="trou"></div>
+          <div id="trou">
+             <img src="images/cadre.png" id="cadre"></img>
+          </div>
+          <div id="ancrebiographie"></div>
+         
             <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
       </div>
     </div>
+    <script src="index.js"> </script>
   </body>
 </html>
