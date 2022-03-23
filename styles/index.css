@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'candlescript';
+    src: url('../polices/candlescript.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #boutonhautpage {
   position: fixed;
   right: 10px;
@@ -22,8 +29,29 @@
   margin: -270px 0px 0px -600px;
 }
 
-h1 {
-  font-family: rafiquellregular;
+
+#george {
+  position: absolute;
+  top: 45vh;
+  left: 22%;
+  
+  color: #0e1525;
+  z-index: 2;
+  font-size: 70px;
+  font-family: "candlescript";
+  font-weight: bolder;
+  
+}
+
+#boole {
+  position: absolute;
+  top: 50vh;
+  right: 22%;
+  color: #0e1525;
+  z-index: 2;
+  font-size: 70px;
+  font-family: "candlescript";
+  font-weight: bolder;
 }
 
 .raccourci {
@@ -43,8 +71,8 @@ h1 {
 }
 
 #biographie-racourci {
-  top: 100px;
-  left: 40px;
+  top: 15vh;
+  left: 6%;
   width: 300px;
   height: 40px;
   transition: 0.5s;
@@ -56,10 +84,10 @@ h1 {
 }
 
 #travaux-racourci {
-  width: 250px;
+  width: 300px;
   height: 40px;
-  top: 150px;
-  right: 30px;
+  top: 15vh;
+  right: 12%;
   transition: 0.5s;
 }
 
@@ -68,11 +96,51 @@ h1 {
   transition: 0.5s;
 }
 
+#alg-bool-racourci {
+  width: 250px;
+  height: 80px;
+  top: 63vh;
+  left: 8%;
+  transition: 0.5s;
+}
+
+#alg-bool-racourci:hover {
+  height: 200px;
+  transition: 0.5s;
+}
+
+#applications-racourci {
+  width: 290px;
+  height: 40px;
+  top: 65vh;
+  right: 4%;
+  transition: 0.5s;
+}
+
+#applications-racourci:hover {
+  height: 160px;
+  transition: 0.5s;
+}
+
+#ancre-biographie {
+  position: absolute;
+  top: -100px;
+}
+
+#ancre-travaux {
+  position: absolute;
+  top: -50px;
+}
+#ancre-alg-bool{
+  position: absolute;
+  top: -100px;
+}
+
 #biographie {
   position: relative;
   width: 30%;
   left: 30px;
-  top: 300px;
+  top: 350px;
   font-size: 20px;
 
 }
@@ -81,9 +149,48 @@ h1 {
   position: absolute;
   width: 30%;
   right: 30px;
-  top: 500px;
+  top: 450px;
   font-size: 20px;
 
+}
+
+#alg-bool {
+  position: relative;
+  top: 600px;
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+}
+
+#alg-bool ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 30px;
+}
+
+#alg-bool ul li {
+  display: inline-block;
+  width: 25%;
+  margin: 0px 20px 0px 20px;
+}
+
+table {
+  margin: 10px auto 0px auto;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: solid 2px white;
+  padding: 10px;
+}
+
+#applications {
+  position: relative;
+  top: 750px;
+  width: 90%;
+  margin: auto;
+  font-size: 20px;
+  
 }
 
 
@@ -121,6 +228,7 @@ h1 {
   overflow: hidden;
   color: white;
   font-family: "verdana";
+  height: 400vh;
 }
 
 #degrade {

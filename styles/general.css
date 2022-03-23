@@ -23,7 +23,7 @@ nav {
   background-color: #0e1525 ;
   position: relative;
   z-index: 3;
-  font-family: rafiquellregular;
+  font-family: "rafiquellregular";
   font-size: 40px;
   letter-spacing: 2px;
 }
@@ -52,4 +52,8 @@ nav a:visited{
   position: absolute;
   right: 20px;
   top: 23px;
+}
+
+h1 {
+  font-family: rafiquellregular;
 }

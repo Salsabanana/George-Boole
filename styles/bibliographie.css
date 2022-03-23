@@ -1,0 +1,48 @@
+body {
+  background-color: #1c2333;
+  font-family: "verdana";
+}
+
+#titre {
+  display: table;
+  margin: 0 auto;
+  font-size: 30px;
+}
+
+
+
+#contenue {
+  position: relative;
+  top: 100px;
+  color: white;
+}
+
+#GB {
+  width: 500px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  padding: 10px;
+  border: solid white 3px;
+}
+
+#alg-bool {
+  width: 800px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  padding: 10px;
+  border: solid white 3px;
+}
+
+#video-bool {
+  width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  padding: 10px;
+  border: solid white 3px;
+}

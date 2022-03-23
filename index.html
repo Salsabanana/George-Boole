@@ -19,50 +19,150 @@
         </nav>
       </header>
       <div id="boutonhautpage">
-      <img src="images/flechehautdepage.png"
-        width=50px
-        height=50px></img>
+      <img src="images/flechehautdepage.png" width="50" height="50">
       </div>
     </div>
     <div id="fond">
-      <img src="images/GB.jpg"></img>
-      <a href="#ancrebiographie">
+      <div id="george">George</div>
+      <div id="boole">Boole</div>
+      <img src="images/GB.jpg">
+      <a href="#ancre-biographie">
         <div class="raccourci" id="biographie-racourci">
         Biographie : <br>
         Une rapide biographie de George Boole
         </div>
       </a>
-      <div class="raccourci" id="travaux-racourci">
+      <a href="#ancre-travaux">
+        <div class="raccourci" id="travaux-racourci">
         Travaux : <br>
-        Ses travaux et leurs impacts aujourd'hui
-      </div>
+        Les travaux et recherches réalisés durant sa vie
+        </div>
+      </a>
+      <a href="#ancre-alg-bool">
+        <div class="raccourci" id="alg-bool-racourci">
+        L'algèbre de Boole : <br>
+        Explications de l'algèbre de Boole
+        </div>
+      </a>
+      <a href="#ancre-applications">
+        <div class="raccourci" id="applications-racourci">
+        Applications de l'algèbre booléen : <br>
+        Les utilisations de cet algèbre
+        </div>
+      </a>
       <div class="raccourci"></div>
     </div>
     <div id="vide"></div>
     <div id="defile">
-        <div id="degrade"></div>
-        <div id="contenue">
-          <div id="dessus">
-            <div id="biographie">
-              <h1>Biographie</h1><br>
-            George Boole est un logicien, mathématicien et philosophe britannique né le 2 novembre 1815. Dès  son enfance, son père lui transmet sa passion pour les sciences et l’astronomie, ensemble ils fabriquent des kaléidoscopes, cadrans solaires… A 16 ans, il arrête ses études pour aider ses parents et trouve un poste d’enseignant dans une petite école. Il peut alors consacrer ses soirée à ses recherches. Pour enseigner les mathématiques, il part du principe qu'une grande part de cette discipline trouve son origine dans la résolution de problèmes pratiques. C'est pourquoi il concentre ses travaux sur l'utilisation pratique des idées mathématiques, plus que sur leur utilisation abstraite. Il réalisera ensuite de nombreux travaux et recherches dans ce domaine (voir la partie « travaux »). Il mourut d’une bronchite qui évolua en pleuropneumonie le 8 décembre 1864.
-            </div>
-            <div id="travaux">
-              <h1>Travaux</h1><br>
-              George Boole réalisa durant sa vie de nombreux sur le thème des mathématiques et de la logique.
-Il écrit en 1839 son premier article mathématiques sur le thème du calcul des variations, qui lui permet de rentrer en contact avec d’autres chercheurs de son temps. Il fait la découverte des invariants algébriques en 1841 qui donnerons naissance à une nouvelle branche des mathématiques mais c’est en 1847 qu’il publie sa plus grande recherche : l’algorithme booléen.
-Il souhaitait démontrer que les raisonnements logiques sont sujets à des lois mathématiques comme celles de l'algèbre et qu'ils peuvent donc être représentés et analysés par des équations mathématiques grâce à un nouveau calcul qui n'opère pas avec des nombres, mais avec des classes d'objets. C’est une nouvelle forme de logique, à la fois symbolique et mathématique. Il crée une algèbre binaire, n'acceptant que deux valeurs numériques : 0 et 1 sur lesquels l’on peu 3 opérations : la conjonction, la disjonction et la négation.
-            </div>
+      <div id="degrade"></div>
+      <div id="contenue">
+        <div id="dessus"> 
+          <div id="biographie">
+            <div id="ancre-biographie"></div>
+            <h1>Biographie</h1><br>
+            George Boole est un logicien, mathématicien et philosophe britannique né le 2 novembre 1815. Dès  son enfance, son père lui transmet sa passion pour les sciences et l’astronomie, ensemble ils fabriquent des kaléidoscopes, cadrans solaires… A 16 ans, il arrête ses études pour aider ses parents et trouve un poste d’enseignant dans une petite école. Il peut alors consacrer ses soirées à ses recherches. Pour enseigner les mathématiques, il part du principe qu'une grande part de cette discipline trouve son origine dans la résolution de problèmes pratiques. C'est pourquoi il concentre ses travaux sur l'utilisation pratique des idées mathématiques, plus que sur leur utilisation abstraite. Il réalisera ensuite de nombreux travaux et recherches dans ce domaine (voir la partie « travaux »). Il mourut d’une bronchite qui évolua en pleuropneumonie le 8 décembre 1864.
           </div>
-          <div id="trou">
-             <img src="images/cadre.png" id="cadre"></img>
+          <div id="travaux">
+            <div id="ancre-travaux"></div>
+            <h1>Travaux</h1><br>
+            George Boole réalisa durant sa vie de nombreux travaux sur le thème des mathématiques et de la logique.
+Il écrit en 1839 son premier article mathématique sur le thème du calcul des variations, qui lui permet de rentrer en contact avec d’autres chercheurs de son temps. Il fait la découverte des invariants algébriques en 1841 qui donnera naissance à une nouvelle branche des mathématiques mais c’est en 1847 qu’il publie sa plus grande recherche : l’algèbre booléen.
           </div>
-          <div id="ancrebiographie"></div>
-         
-            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+          <div id="alg-bool">
+            <div id="ancre-alg-bool"></div>
+            <h1>L'algèbre booléen</h1>
+            George Boole souhaitait démontrer que les raisonnements logiques sont sujets à des lois mathématiques comme celles de l'algèbre et qu'ils peuvent donc être représentés et analysés par des équations mathématiques. Il crée alors une algèbre binaire, n'acceptant que deux valeurs : 0 et 1 (ou true et false) sur lesquels l’on peut réaliser 3 opérations : la conjonction, la disjonction et la négation.
+            <ul>
+              <li>
+                La conjonction est représenté par le "et" et se comporte de la manière suivante : "a et b" est vrai si a est vrai et b est vrai. <br>
+                <table>
+                  <tr>
+                    <th>a</th>
+                    <th>b</th>
+                    <th>a et b</th>
+                  </tr>
+                  <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                  </tr>
+                </table>
+              </li>
+              <li>
+                La négation est représenté par le "non" et se comporte de la manière suivante : "non a" est vrai si a est faux. <br>
+                <table>
+                  <tr>
+                    <th>a</th>
+                    <th>non a</th>
+                  </tr>
+                  <tr>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>0</td>
+                  </tr>
+                </table>
+              </li>
+              <li>
+                La disjonction est représenté par le "où" et se comporte de la manière suivante :" a ou b" est vrai si a est vrai ou b est vrai. <br>
+                <table>
+                  <tr>
+                    <th>a</th>
+                    <th>b</th>
+                    <th>a ou b</th>
+                  </tr>
+                  <tr>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>0</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>0</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>0</td>
+                    <td>1</td>
+                    <td>1</td>
+                  </tr>
+                  <tr>
+                    <td>1</td>
+                    <td>1</td>
+                    <td>1</td>
+                  </tr>
+                </table>
+              </li>
+            </ul>
+          </div>
+          <div id="applications">
+            <div id="ancre-applications"></div>
+              <h1>Les applications de l'algèbre de Boole</h1>
+              Cet algèbre est aujourd’hui utilisé dans de nombreux domaines comme l’informatique, la téléphonie... Il est notamment à la base des circuits électroniques présents dans les ordinateurs et autres appareils capables de réaliser des opérations et est à l’origine du langage binaire. Il est également utilisé dans de nombreux langages de programmation sous forme de variables n’acceptant que deux valeurs (true ou false) et portant son nom : les booléens.
+          </div>
+        </div>
+        <div id="trou">
+           <img src="images/cadre.png" id="cadre">
         </div>
       </div>
     </div>
-    <script src="index.js"> </script>
+    <script src="scripts/index.js"> </script>
   </body>
 </html>
