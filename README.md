@@ -5,7 +5,7 @@
 ### ⚠ The code of this project and the website have been written in french! 
 
 
-This website contain a biography of George Bool and a playfield to understand his boolean algebra in the form of a circuit bord simulation.
+## This website contain a biography of George Bool and a playfield to understand his boolean algebra in the form of a circuit bord simulation.
 
 Galery : 
 ![image](https://user-images.githubusercontent.com/59451933/169664369-fa363156-c32e-49c3-b491-f1880c04fc2e.png)
